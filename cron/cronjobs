@@ -1,0 +1,2 @@
+${CRON_EXTRACT} root /usr/local/bin/scripts/run_extract.sh >> /var/log/json_extract.log 2>&1
+${CRON_TRANSFORM} root /usr/local/bin/scripts/run_transform.sh >> /var/log/json_transform.log 2>&1
